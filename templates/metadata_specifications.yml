@@ -1,12 +1,12 @@
 metadataSpecifications:
         - 
-                extension-name: "workflow"
-                specification-name:
+                specificationName:
+                extensionName: workflow
                 pipeline:
                 genomeBuild:
-        - 
-                extension-name: "sequencing-experiment"
-                specification-name:
+        -
+                specificationName:
+                extensionName: experiment
                 experimentalStrategy:
                 platform:
                 selection:
@@ -14,10 +14,10 @@ metadataSpecifications:
                 isPairedEnd:
                 readLength:
                 protocol:
-                targetCaptureKit :
-                targetedLoci :
-                otherParametersTBD:
-analysis-files:
+                targetCaptureKit:
+                targetedLoci:
+
+analysisFiles:
         -
                 experimentalStrategy:
                 files:
@@ -37,3 +37,4 @@ analysis-files:
                         snv_annotated_idx:
                         metrics:
                         supp:
+        
